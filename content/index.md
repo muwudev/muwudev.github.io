@@ -1,5 +1,5 @@
 ---
-title: hello, im amna
+title: hello, i'm amna
 ---
 aka 
 **banamnasplit | muwudev**
@@ -8,8 +8,8 @@ aka
 
 there's alot that goes on in my mind but here's the top three chunks i could come up with
 
-#dev
-#art
-#baking
+- #dev
+- #art
+- #baking
 
 i will change the format as i go but gonna keep it simple for now :3

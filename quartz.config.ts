@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "amna's brain dump",
+    pageTitle: "brain dump",
 
     pageTitleSuffix: "",
     enableSPA: true,

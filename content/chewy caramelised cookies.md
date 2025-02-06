@@ -1,4 +1,4 @@
-#recipe #blog 
+#baking #recipe
 
 `servings: 16 medium cookies or 8 large cookies`  
 `prep time: 15 minutes (active) + 8-9 hours chilling`  

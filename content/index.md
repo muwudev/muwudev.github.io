@@ -1,15 +1,15 @@
 ---
-title: welcome to my brain dump
+title: hello, im amna
 ---
-hello, im amna aka
-banamnasplit | muwudev
+aka 
+**banamnasplit | muwudev**
 
-banamna - audio from trump at top
+`btw here's how you pronounce` [banamna](https://www.youtube.com/watch?v=m3bTPmTojDk)
 
-theres alot that goes on in my mind but heres the top three chunks i could come up with
+there's alot that goes on in my mind but here's the top three chunks i could come up with
 
--[[dev]]
--[[art]]
--[[baking]]
+#dev
+#art
+#baking
 
-i will change the format as i go but gonna keep it simple
+i will change the format as i go but gonna keep it simple for now :3

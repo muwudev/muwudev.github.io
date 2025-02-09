@@ -8,6 +8,7 @@
 ---
 
 `ingredients`
+
 `wet`  
 - 1 cup (227g) melted butter  
 - 2 tsp vanilla extract
@@ -17,7 +18,7 @@
 `dry`  
 - 2 cups (240g) all-purpose flour (can also sub 1/3 cup with semolina for crispier edge)
 - 1 cup (220g) brown sugar (cane or coconut sugar)  
-- 1/3 cup (67g) granulated white sugar  
+- 1/3 cup (67g) granulated white sugar (or brown sugar) 
 - 1 tsp baking soda 
 - 3/4 tsp salt 
 
@@ -60,12 +61,12 @@
 - **softer centre:** reduce baking time by 2-3 minutes and let cookies cool on the tray
 - **crispier crust:** mix of white and brown sugar instead of all brown. add semolina to the flour mix
 - **deeper caramel flavour:** dark brown sugar instead of light brown
-- **more variety:** mix of white, milk, and dark chocolate
+- **more variety:** mix of white, milk and dark chocolate
 - **nuttier (?) flavour:** use [brown butter](https://www.youtube.com/shorts/5ZsHgdi-V_c)
 - keep large gaps between each cookie as they tend to flatten out significantly
 
 `my personal favourites`
-peanut butter + chocolate
-white chocolate + almonds + brown butter
+- peanut butter + chocolate
+- white chocolate + almonds + brown butter
 
 `if you ever end up making these, send me a dm on` [insta](https://www.instagram.com/idiotchiizu) `with pics :3`

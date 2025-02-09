@@ -136,7 +136,7 @@ or try an alternative session by running:
 startx
 ```
 
-`my situation:`
+`my situation`:
 my pc was not able to translate dns, couldn't retrieve packages from official servers. pc was not able to update properly so got the error while doing a system update. terminal would not pop up even when pressing `ctrl + alt + f3`. 
 
 after chrooting into my system with the live boot, i was able to configure the dns settings. packages were then retrieved to fix missing mesa and nvidia packages

@@ -1,110 +1,152 @@
 #dev #linux 
-After performing a system for Ubuntu 24.04 update, the system fails to boot properly and displays the following error message:
+
+after performing a system for Ubuntu 24.04 update, system fails to boot properly and displays the error message:
 
 ```
 Oh no! Something is wrong. A problem has occurred and the system can't recover. Please contact a system administrator.
 ```
 
-Attempts to access a terminal via `Ctrl + Alt + F3` do not work. The `Esc` or `Shift` key during boot briefly shows something but no longer works.
-
-Important files are present on the system, so a fresh installation is not preferred.
+attempts to access a terminal via `ctrl + alt + f3` do not work. the `esc` or `shift` key during boot briefly shows something but no longer works. if you have important files on the system the following guide is for you
 
 ---
 
-## Solution Walkthrough
+lets walk you through this :3
 
-### Step 1: Boot into a Live Environment
-Since the system cannot boot properly, use a **Live USB** to access the files and troubleshoot the issue.
+`step 1: boot into a live environment`
 
-1. Create a bootable USB with a Linux distro using `Rufus` (Windows) or `dd` (Linux/macOS). Or use the one you used initially to install Ubuntu on to your system if you still have it.
-2. Insert the USB into the pc and boot from it.
-3. Select the option to "Try Ubuntu" (or your respective distro's live mode).
+since the system cannot boot properly, use a **live usb** to access the files and troubleshoot the issue
 
-### Step 2: Mount the Root Filesystem
-Once inside the live session:
+1. create a bootable usb with a linux distro using `rufus` (windows) or `dd` (linux/macos). or use the one you used initially to install ubuntu on to your system if you still have it
+2. insert the usb into the pc and boot from it
+3. select the option to "try ubuntu" (or your respective distro's live mode)
 
-4. Open a terminal.
-5. Identify the root partition using:
-   ```bash
-   lsblk
-   ```
-6. Mount the partition (assuming it's `/dev/sda2`, adjust as needed):
-   ```bash
-   sudo mount /dev/sda2 /mnt
-   ```
-7. Bind system directories:
-   ```bash
-   for i in /dev /proc /sys /run; do sudo mount --bind "$i" /mnt$i; done
-   ```
+`step 2: mount the root filesystem`
 
-### Step 3: Chroot into the System
+once inside the live session:
 
-8. Enter the installed system using:
-   ```bash
-   sudo chroot /mnt
-   ```
-9. Update package sources:
-   ```bash
-   apt update
-   ```
+4. open a terminal
+5. identify the root partition using:
+    
+    ```bash
+    lsblk
+    ```
+    
+6. mount the partition (assuming it's `/dev/sda2`, adjust as needed):
+    
+    ```bash
+    sudo mount /dev/sda2 /mnt
+    ```
+    
+7. bind system directories:
+    
+    ```bash
+    for i in /dev /proc /sys /run; do sudo mount --bind "$i" /mnt$i; done
+    ```
+    
 
-### Step 4: Fix Broken Packages
+`step 3: chroot into the system`
 
-10. Try auto-fixing broken dependencies:
-   ```bash
-   apt --fix-broken install
-   ```
-11. If the display manager is failing, reinstall it:
-   ```bash
-   apt reinstall gdm3
-   ```
-   (For KDE, use `sddm`, and for XFCE, use `lightdm`.)
+8. enter the installed system using:
+    
+    ```bash
+    sudo chroot /mnt
+    ```
+    
+9. update package sources:
+    
+    ```bash
+    apt update
+    ```
+    
 
-### Step 5: Reinstall Display Drivers
-If a driver issue caused the failure:
+`step 4: fix broken packages`
 
-12. Check for installed drivers:
-   ```bash
-   ubuntu-drivers devices
-   ```
-13. Install recommended drivers:
-   ```bash
-   ubuntu-drivers install
-   ```
+10. try auto-fixing broken dependencies:
 
-### Step 6: Update Initramfs and Grub
+```bash
+apt --fix-broken install
+```
 
-14. Regenerate the initramfs:
-   ```bash
-   update-initramfs -u -k all
-   ```
-15. Update GRUB:
-   ```bash
-   update-grub
-   ```
+11. if the display manager is failing, reinstall it:
 
-### Step 7: Reboot the System
-Exit the chroot environment and unmount everything:
+```bash
+apt reinstall gdm3
+```
+
+(for kde, use `sddm`, and for xfce, use `lightdm`)
+
+
+`step 5: reinstall display drivers`
+
+if a driver issue caused the failure:
+
+12. check for installed drivers:
+
+```bash
+ubuntu-drivers devices
+```
+
+13. install recommended drivers:
+
+```bash
+ubuntu-drivers install
+```
+
+`step 6: update initramfs and grub`
+
+14. regenerate the initramfs:
+
+```bash
+update-initramfs -u -k all
+```
+
+15. update grub:
+
+```bash
+update-grub
+```
+
+
+` step 7: reboot the system`
+
+16. exit the chroot environment and unmount everything:
+
 ```bash
 exit
 for i in /dev /proc /sys /run; do sudo umount /mnt$i; done
 sudo umount /mnt
 ```
-Then remove the live USB and reboot:
+
+17. then remove the live usb and reboot:
+
 ```bash
 sudo reboot
 ```
 
-If the issue persists, check logs using:
+`extras`
+if the issue persists, check logs using:
+
 ```bash
 journalctl -xb
 ```
+
 or try an alternative session by running:
+
 ```bash
 startx
 ```
 
-If none of the above work, consider backing up files and reinstalling the system or contact support
+`my situation:`
+my pc was not able to translate dns, couldn't retrieve packages from official servers. pc was not able to update properly so got the error while doing a system update. terminal would not pop up even when pressing `ctrl + alt + f3`. 
 
-references:
-https://discourse.ubuntu.com/t/doodle-empires-savegame-crashed-ubuntu-24-10/52992/28
+after chrooting into my system with the live boot, i was able to configure the dns settings. packages were then retrieved to fix missing mesa and nvidia packages
+
+if your case is similar, check [this](https://www.reddit.com/r/Ubuntu/comments/1cd86l4/no_connection_after_upgrading_to_2404_lts/) out
+
+if none of the above work, consider:
+- contacting their official support
+- joining their official discord and asking for help
+- asking for help on [r/Ubuntu](https://www.reddit.com/r/Ubuntu/)
+- backing up files and reinstalling the system
+- `crying cus i wasted your time :( </3`
+

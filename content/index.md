@@ -2,8 +2,9 @@
 title: welcome to my mind
 ---
 hello, i'm amna
-aka 
-**banamnasplit | muwudev**
+
+aka
+**banamna | muwudev | [idiotchiizu](https://www.instagram.com/idiotchiizu)**
 
 `btw here's how you pronounce` [banamna](https://www.youtube.com/watch?v=m3bTPmTojDk)
 

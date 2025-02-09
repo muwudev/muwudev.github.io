@@ -27,31 +27,29 @@
 
 ---
 
-`step 1: dissolve sugar in wet ingredients  `
-1. in a large bowl, whisk together **melted butter, brown sugar, granulated brown sugar and eggs** until the sugar fully dissolves. the mixture should look glossy and slightly slimy
-2. cover and chill overnight (or at least 8 hours)
+`step 1: dissolve sugar in wet ingredients`
+	1. in a large bowl, whisk together **melted butter, brown sugar, granulated brown sugar and eggs** until the sugar fully dissolves. the mixture should look glossy and slightly slimy
+	2. cover and chill overnight (or at least 8 hours)
 
-`step 2: prepare dry ingredients  `
-3. in a separate bowl, whisk together **flour, baking soda and salt** until evenly combined
+`step 2: prepare dry ingredients `
+	3. in a separate bowl, whisk together **flour, baking soda and salt** until evenly combined
 
 `step 3: combine and chill again  `
-4. remove the wet mixture from the fridge and let it sit at room temperature for 10-15 minutes if too firm
-5. slowly mix in the dry ingredients with peanut butter until just combined. do not over mix
-6. fold in the chocolate and nuts, leaving some aside for topping
-7. cover and chill again for 30 mins (optional, but helps with texture)
+	4. remove the wet mixture from the fridge and let it sit at room temperature for 10-15 minutes if too firm
+	5. slowly mix in the dry ingredients with peanut butter until just combined. do not over mix
+	6. fold in the chocolate and nuts, leaving some aside for topping
+	7. cover and chill again for 30 mins (optional, but helps with texture)
 
 `step 4: shape and bake  `
-8. preheat oven to **175°c (350°f)**. line a baking sheet with parchment paper. keep the tray in the oven
-
-9. scoop dough into balls:  
-   - **medium cookies:** use 1 1/5 tablespoons of dough per cookie
-   - **large cookies:** use 2 tablespoons  per cookie and flatten slightly with the back of a spoon
-10. place the cookie dough balls on the tray and press the reserved chocolate/nuts on top
-
-11. bake:
-   - **medium cookies:** 10-12 minutes, until edges are golden but centres are soft
-   - **large cookies:** 15 minutes after flattening
-12. let cookies cool on the tray for 5 minutes, then transfer to a wire rack
+	8. preheat oven to **175°c (350°f)**. line a baking sheet with parchment paper. keep the tray in the oven
+	9. scoop dough into balls:  
+	   - **medium cookies:** use 1 1/5 tablespoons of dough per cookie
+	   - **large cookies:** use 2 tablespoons  per cookie and flatten slightly with the back of a spoon
+	10. place the cookie dough balls on the tray and press the reserved chocolate/nuts on top
+	11. bake:
+	   - **medium cookies:** 10-12 minutes, until edges are golden but centres are soft
+	   - **large cookies:** 15 minutes after flattening
+	12. let cookies cool on the tray for 5 minutes, then transfer to a wire rack
 
 ---
 

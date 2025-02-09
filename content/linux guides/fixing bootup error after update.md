@@ -104,4 +104,7 @@ or try an alternative session by running:
 startx
 ```
 
-If none of the above work, consider backing up files and reinstalling the system.
+If none of the above work, consider backing up files and reinstalling the system or contact support
+
+references:
+https://discourse.ubuntu.com/t/doodle-empires-savegame-crashed-ubuntu-24-10/52992/28

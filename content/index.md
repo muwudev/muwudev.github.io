@@ -1,6 +1,7 @@
 ---
-title: hello, i'm amna
+title: welcome to my mind
 ---
+hello, i'm amna
 aka 
 **banamnasplit | muwudev**
 

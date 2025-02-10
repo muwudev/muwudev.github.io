@@ -1,10 +1,19 @@
-discord - m00sh1 - https://discordapp.com/users/782884530821660672
-carrd portfolio - https://banamnasplit.carrd.co/
-linkedin - https://www.linkedin.com/in/amna-kausar/ 
-orcid - https://orcid.org/0009-0000-3940-8845
-dev portfolio - https://rainbow-price-a45.notion.site/Dev-Portfolio-1791de95cdb88009b104cc4e9d250194
-github - https://github.com/muwudev
-blog - https://muwudev.github.io/
+discord-[m00sh1](https://discordapp.com/users/782884530821660672), [carrd portfolio](https://banamnasplit.carrd.co/), linkedin - https://www.linkedin.com/in/amna-kausar/ 
+
+[dev portfolio](https://rainbow-price-a45.notion.site/Dev-Portfolio-1791de95cdb88009b104cc4e9d250194), [github](https://github.com/muwudev), [blog](https://muwudev.github.io/) 
+    <a
+    id="cy-effective-orcid-url"
+    class="underline"
+     href="https://orcid.org/0009-0000-3940-8845"
+     target="orcid.widget"
+     rel="me noopener noreferrer"
+     style="vertical-align: top">
+     <img
+        src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+        style="width: 1em; margin-inline-start: 0.5em"
+        alt="ORCID iD icon"/>
+      https://orcid.org/0009-0000-3940-8845
+    </a>
 
 <style type="text/css" media="screen">
 .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}

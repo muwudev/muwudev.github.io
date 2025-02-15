@@ -5,7 +5,7 @@ aka **[banamna](https://banamnasplit.carrd.co/) | [muwudev](https://rainbow-pric
 
 there's alot that goes on in my mind but here's the top three chunks i could come up with
 
-- #dev
+- #tech
 - #art
 - #baking
 

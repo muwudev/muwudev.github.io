@@ -2,13 +2,14 @@
     <img src="https://cdn.brandfetch.io/idM8Hlme1a/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="Discord Icon" width="40"  style="margin-right: 20px">
 </a> <a href="https://github.com/muwudev" target="_blank">
     <img src="https://cdn.brandfetch.io/idZAyF9rlg/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="GitHub Icon" width="40" style="margin-right: 20px">
+</a> <a href="https://www.chess.com/member/jizzlerizzler" target="_blank">
+    <img src="https://cdn.brandfetch.io/id3xkMkAED/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B" alt="Profile Icon" width="40" style="margin-right: 20px">
+</a> <a href="https://orcid.org/0009-0000-3940-8845" target="_blank">
+    <img src="https://cdn.brandfetch.io/id-T9KFezm/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="0009-0000-3940-8845" width="40" style="margin-right: 20px">
+</a> <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1MIBe6RedsCVm8unKVW8sgqSW_jGcbVBg0sD4skvsmepT-m6wdUdshgJKnpfv2WF4rtRCWdOqI?gv=true" target="_blank">
+    <img src="https://dabuttonfactory.com/button.png?t=have+a+virtual+coffee+with+me+%3A3&f=Ubuntu-Bold&ts=17&tc=fff&hp=45&vp=20&c=round&bgt=unicolored&bgc=ffc700" alt="virtual coffee button" width="250" style="margin-left: 100px">
 </a>
-<a href="https://www.chess.com/member/jizzlerizzler" target="_blank">
-    <img src="https://cdn.brandfetch.io/id3xkMkAED/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="Profile Icon" width="100" style="margin-right: 20px">
-</a>
-<a href="https://orcid.org/0009-0000-3940-8845" target="_blank">
-    <img src="https://cdn.brandfetch.io/id-T9KFezm/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="0009-0000-3940-8845" width="100" style="margin-right: 20px">
-</a>
+
 [digital card](https://banamnasplit.carrd.co/), [dev portfolio](https://rainbow-price-a45.notion.site/Dev-Portfolio-1791de95cdb88009b104cc4e9d250194), [blog](https://muwudev.github.io/) 
 
 <style type="text/css" media="screen">

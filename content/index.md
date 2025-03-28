@@ -5,9 +5,11 @@ aka **[banamna](https://banamnasplit.carrd.co/) | [muwudev](https://rainbow-pric
 
 there's alot that goes on in my mind but here's the top three chunks i could come up with
 
-- #tech
-- #art
-- #baking
+- [[tech]]
+- [[art]]
+- [[baking]]
+
+each link has its own MoC (map of content). so click wherever and follow along. or jus do what you want nobody's watching
 
 i'll change the format as i go but gonna keep it simple for now
 

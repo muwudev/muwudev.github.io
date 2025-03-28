@@ -1,4 +1,4 @@
-#tech #linux 
+#guide #linux 
 
 after performing a system for Ubuntu 24.04 update, system fails to boot properly and displays the error message:
 

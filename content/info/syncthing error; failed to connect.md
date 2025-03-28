@@ -1,4 +1,4 @@
-#tech
+#guide
 
 restarting Syncthing failed to connect
 

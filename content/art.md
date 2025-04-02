@@ -1,0 +1,1 @@
+art is a way of living, its how i see the world, how i live and how i feel. to me art, specifically, visual arts is something i have always been passionate about. words may not have been my best medium but traditional, digital, painting, knitting, sewing and aquascaping have. 

@@ -1,8 +1,8 @@
 #guides
 `personal problems i've come across and how i solved em`
-1. [[syncthing error; failed to connect]]
-2. [[bootup error after Ubuntu update]]
+1. [[02.1 - syncthing error]]
+2. [[02.2 - bootup error]]
 
 #teardown 
 `random mobile teardowns i've done cus taking things apart is fun`
-1. [[samsung A8+ teardown]]
+1. [[02.3 - samsung A8 teardown]]

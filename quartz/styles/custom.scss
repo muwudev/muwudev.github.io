@@ -1,3 +1,97 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// portfolio font feel
+:root {
+  --font-body: "Source Sans Pro", system-ui, sans-serif;
+}
+
+// page title weight
+#quartz-body .page-title {
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+// content links use clay accent
+.center article a {
+  color: var(--secondary);
+  text-decoration-color: rgba(186, 90, 88, 0.3);
+
+  &:hover {
+    text-decoration-color: var(--secondary);
+  }
+}
+
+// remove external link arrow indicators everywhere
+a[href^="http"]::after,
+a[href^="https"]::after,
+a[target="_blank"]::after {
+  display: none !important;
+  content: none !important;
+}
+
+// inline code pill — clay tone
+code:not(pre > code) {
+  background: rgba(186, 90, 88, 0.1);
+  color: var(--secondary);
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+}
+
+// subtle divider below article title
+.center .page-header,
+.center .article-title {
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+// explorer: folders stay open, no collapse toggle
+.explorer-content details {
+  > summary::marker,
+  > summary::-webkit-details-marker {
+    display: none;
+  }
+  > summary {
+    list-style: none;
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+// social icon row
+.social-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 1.5rem 0 1rem;
+
+  a {
+    color: var(--darkgray);
+    opacity: 0.6;
+    transition: color 0.18s ease, opacity 0.18s ease, transform 0.18s ease;
+    line-height: 0;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &::after {
+      display: none !important;
+      content: none !important;
+    }
+
+    &:hover {
+      color: var(--secondary);
+      opacity: 1;
+      transform: translateY(-2px);
+    }
+
+    svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+      display: block;
+      overflow: visible;
+    }
+  }
+}

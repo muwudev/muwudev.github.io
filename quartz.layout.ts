@@ -20,7 +20,15 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.TagList(),
+  ],
+  afterBody: [
+    Component.Graph({
+      localGraph: {
+        depth: -1,
+        scale: 0.9,
+        focusOnHover: true,
+      },
+    }),
   ],
   left: [
     Component.PageTitle(),

@@ -67,10 +67,10 @@ type TweenNode = {
   stop: () => void
 }
 
-async function renderGraph(container: string, fullSlug: FullSlug) {
+async function renderGraph(container: string | HTMLElement, fullSlug: FullSlug) {
   const slug = simplifySlug(fullSlug)
   const visited = getVisited()
-  const graph = document.getElementById(container)
+  const graph = typeof container === "string" ? document.getElementById(container) : container
   if (!graph) return
   removeAllChildren(graph)
 
@@ -190,16 +190,30 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     {} as Record<(typeof cssVars)[number], string>,
   )
 
-  // calculate color
+  // section color map — keyed by tag name
+  const sectionColorMap: Record<string, string> = {
+    aquascaping: "#3a7ebf",
+    fishkeeping: "#3a7ebf",
+    betta:       "#3a7ebf",
+    plants:      "#4a9c6a",
+    guide:       "#7c5cbf",
+    guides:      "#7c5cbf",
+    teardown:    "#7c5cbf",
+    art:         "#e07f52",
+    recipe:      "#bf3a5c",
+    food:        "#bf3a5c",
+    baking:      "#bf3a5c",
+  }
+
   const color = (d: NodeData) => {
     const isCurrent = d.id === slug
-    if (isCurrent) {
-      return computedStyleMap["--secondary"]
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
-      return computedStyleMap["--tertiary"]
-    } else {
-      return computedStyleMap["--gray"]
+    if (isCurrent) return computedStyleMap["--secondary"]
+    if (d.id.startsWith("tags/")) return computedStyleMap["--tertiary"]
+    for (const tag of d.tags) {
+      if (sectionColorMap[tag]) return sectionColorMap[tag]
     }
+    if (visited.has(d.id)) return computedStyleMap["--tertiary"]
+    return computedStyleMap["--gray"]
   }
 
   function nodeRadius(d: NodeData) {
@@ -548,11 +562,14 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const slug = e.detail.url
   addToVisited(simplifySlug(slug))
-  await renderGraph("graph-container", slug)
+  const graphContainers = document.querySelectorAll<HTMLElement>(".graph-container")
+  for (const el of graphContainers) {
+    await renderGraph(el, slug)
+  }
 
   // Function to re-render the graph when the theme changes
   const handleThemeChange = () => {
-    renderGraph("graph-container", slug)
+    document.querySelectorAll<HTMLElement>(".graph-container").forEach((el) => renderGraph(el, slug))
   }
 
   // event listener for theme change
